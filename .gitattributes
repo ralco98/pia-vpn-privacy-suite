@@ -1,0 +1,17 @@
+# Language detection rules
+# Text file normalization
+go.sum linguist-generated
+*.png binary
+
+src/*.ts linguist-detectable
+
+*.bat text eol=crlf
+package-lock.json linguist-generated
+
+*.ico binary
+src/** linguist-detectable
+
+*.sh text eol=lf
+examples/site/*.html linguist-vendored   
+dist/* linguist-vendored
+# eof 928cce1a
